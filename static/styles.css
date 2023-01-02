@@ -1,0 +1,40 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    text-align: center;
+    bottom: 15px;
+    width: 100%;
+    font-size: 2vmin;
+    color: #808080;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: clamp(20px, 5vw, 40px);
+}
+
+h2 {
+    font-size: clamp(18px, 4vw, 32px);
+}
+
+p {
+    font-size: clamp(14px, 3vw, 26px);
+}
+
+.info {
+    text-align: center;
+}
+
+ul.square {
+    list-style-type: square;
+    font-size: clamp(14px, 3vw, 26px);
+}
